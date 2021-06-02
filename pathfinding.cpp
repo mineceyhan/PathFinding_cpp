@@ -2,7 +2,8 @@
 
 // Mine CEYHAN
 // Tarih: 16.05.2021
-// Geli�tirme Ortam�: Visual Studio 2019
+// Bilgisayar Mühendisliği 1. yıl 2. dönem
+// Geliþtirme Ortamý: Visual Studio 2019
 
 
 #include <iostream>
@@ -19,8 +20,8 @@ int main() {
 	ifstream fin("input.txt");
 	ofstream fout("output.txt");
 	string textline;
-	vector<string> startedge; // A1->B1   A1 i al�r
-	vector<string> endedge;   // A1->B1   B1 i al�r
+	vector<string> startedge; // A1->B1   A1 i alýr
+	vector<string> endedge;   // A1->B1   B1 i alýr
 	vector<string> path; 
 	vector<vector<string>> dongu;
 
